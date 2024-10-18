@@ -1,0 +1,163 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --very-dark-magenta: #512051;
+    --dark-grayish-magenta: #927B91;
+    --light-grayish-magenta: #F7F2F7;
+    --soft-pink: #EE69A4;
+
+}
+
+* {
+    font-family: "League Spartan", sans-serif;
+}
+
+section
+{
+    background-image: url('../images/bg-pattern-top-desktop.svg') , url('../images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 0vw 0vh , 30vw 4vh;
+    max-height: 100vh;
+
+}
+
+section {
+    background-color: white;
+    padding: 118px 165px 100px 165px;
+}
+
+.reviews_top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+
+.title,
+.reviews_ratings {
+    flex: 0 0 50%;
+}
+
+
+.reviews_ratings {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews_top .title {
+    padding-right: 160px;
+}
+
+.reviews_top h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: var(--very-dark-magenta);
+    margin-bottom: 16px;
+}
+
+.reviews_top p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.63px;
+    color: var(--dark-grayish-magenta);
+}
+
+.reviews_ratings .star_item {
+    background-color: var(--light-grayish-magenta);
+    padding: 20px 32px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 445px;
+
+}
+
+.star_item:first-child {
+    align-self: flex-start;
+}
+
+.star_item:nth-child(2) {
+    align-self: center;
+}
+
+.star_item:nth-child(3) {
+    align-self: flex-end;
+}
+
+.stars_group {
+    display: flex;
+    gap: 8.45px;
+}
+
+.star_item p {
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+    font-size: 17px;
+}
+
+/* Bottom Section  */
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial_card
+{
+    width: 350px;
+    background-color: var(--very-dark-magenta);
+    color: white;
+    border-radius: 8px;
+    padding: 40px 32px 35px 32px;
+}
+
+.testimonial_card .author
+{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    margin-bottom: 31px;
+   font-size: 17px;
+
+}
+
+.testimonial_card img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+.testimonial_card .author .name
+{
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+.testimonial_card .author .buyer
+{
+   color: var(--soft-pink);
+   font-weight: 400;
+}
+
+.testimonial_card .quote
+{
+   font-size: 17px;
+   font-weight: 500;
+   line-height: 22px;
+   letter-spacing: -0.3px;
+}
+
+/* # Front-end Style Guide
+- Mobile: 375px
+- Desktop: 1440px
+
+ */

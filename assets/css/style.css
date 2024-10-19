@@ -74,14 +74,6 @@
     height: 14.625rem; /* 234px */
 }
 
-.testimonial_card:nth-child(2) {
-    margin-top: 1rem; /* 16px */
-}
-
-.testimonial_card:nth-child(3) {
-    margin-top: 2rem; /* 32px */
-}
-
 .testimonial_card .author {
     display: flex;
     gap: 1.4375rem; /* 23px */
@@ -156,6 +148,14 @@
         justify-content: space-between;
         column-gap: 1.25rem; /* 20px */
     }
+
+    .testimonial_card:nth-child(2) {
+        margin-top: 1rem; /* 16px */
+    }
+    
+    .testimonial_card:nth-child(3) {
+        margin-top: 2rem; /* 32px */
+    }
 }
 
 /* SMALL SCREENS ************************************** */
@@ -190,5 +190,10 @@
     .testimonials {
         flex-direction: column;
         align-items: center;
+    }
+
+    .testimonial_card
+    {
+        margin-bottom: 16px;
     }
 }

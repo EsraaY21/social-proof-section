@@ -106,7 +106,7 @@
 
 /* LARGE SCREENS ************************************** */
 @media screen and (min-width:1301px) {
-    section {
+    main {
         background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
         background-repeat: no-repeat;
         background-position: 0vw 0vh, 30vw 30vh;
@@ -163,7 +163,7 @@
 
 /* SMALL SCREENS ************************************** */
 @media screen and (max-width:1300px) {
-    section {
+    main {
         background-image: url('../images/bg-pattern-top-mobile.svg');
         background-repeat: no-repeat;
         background-position: 0vw 0vh;

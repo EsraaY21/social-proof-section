@@ -70,8 +70,7 @@
     color: white;
     border-radius: 0.5rem; /* 8px */
     padding: 2.5rem 2rem 2.1875rem 2rem; /* 40px 32px 35px 32px */
-    width: 21.875rem; /* 350px */
-    height: 14.625rem; /* 234px */
+    max-width: 21.875rem; /* 350px */
 }
 
 .testimonial_card .author {
@@ -149,6 +148,10 @@
         column-gap: 1.25rem; /* 20px */
     }
 
+    .testimonial_card {
+        height: 14.625rem; /* 234px */
+    }
+
     .testimonial_card:nth-child(2) {
         margin-top: 1rem; /* 16px */
     }
@@ -196,4 +199,6 @@
     {
         margin-bottom: 16px;
     }
+
+  
 }
